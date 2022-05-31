@@ -15,5 +15,7 @@ console.log(resultadoDaSoma, typeof resultadoDaSoma);
 
 
 // Arrow Function
-const soma = (x, y) => console.log(x + y);
+const arrowSoma = (x, y) => console.log(x + y);
 hello('matheus')
+
+
