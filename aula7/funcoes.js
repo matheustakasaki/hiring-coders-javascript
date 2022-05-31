@@ -19,3 +19,4 @@ const arrowSoma = (x, y) => console.log(x + y);
 hello('matheus')
 
 
+arrowSoma(3,4)
