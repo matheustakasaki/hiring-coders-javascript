@@ -4,8 +4,8 @@ function soma(valor, valor2) {
 }
 
 
-function hello(nome){
-    console.log('Olá Gama! Você é o '+ nome)
+function hello(nome) {
+    console.log('Olá Gama! Você é o ' + nome)
 }
 var tres = soma(1, 2);
 
@@ -14,4 +14,6 @@ console.log(tres, typeof tres);
 console.log(resultadoDaSoma, typeof resultadoDaSoma);
 
 
+// Arrow Function
+const soma = (x, y) => console.log(x + y);
 hello('matheus')
